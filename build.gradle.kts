@@ -15,7 +15,7 @@ val gridgain_version = "8.9.15"
 
 
 repositories {
-    mavenCentral();
+    mavenCentral()
     maven { url = uri("https://www.gridgainsystems.com/nexus/content/repositories/external") }
 }
 
