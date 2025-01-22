@@ -7,12 +7,13 @@ The only difference is that this repo uses Gradle rather than Maven.
 
 ## Configuring GridGain
 I used GridGain v8.9.15 Enterprise Edition to test this application.  You will need a license key for this edition.
+<br/><br/><B>Note:</B> The $GRIDGAIN_HOME env variable should point to directory where GridGain is installed
 1. Copy the $GRIDGAIN_HOME/libs/optional/control-center-agent folder to the $GRIDGAIN_HOME/libs folder
 2. Once the cluster is started, there will be a token in stdout that will be needed to connect to control center
    <br><b><u>Optionally</b></u>, you could use [GridGain Nebula](https://portal.gridgain.com/) to get access to Control Center - there is a free trial available on the site.
 
 ## Instructions to execute the sample
-1. Your project should use Java 11
+1. Your project should use Java 11 - I used Azul Zulu 11.0.24
 2. Start a GridGain node using $GRIDGAIN_HOME/bin/ignite.sh
 
 Then run the HelloWorld.java class's main() method.
